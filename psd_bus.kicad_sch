@@ -3553,7 +3553,6 @@
     )
   )
 
-
   (junction (at 365.76 149.86) (diameter 0) (color 0 0 0 0)
     (uuid 00ef1bb8-1fce-4c40-8ff1-b1f6676edb2b)
   )
@@ -7734,7 +7733,7 @@
     (uuid 01ee5666-fe7b-4368-a990-0645b8571000)
     (property "Reference" "D6" (id 0) (at 247.396 181.61 0))
     (property "Value" "LED" (id 1) (at 251.46 181.61 0))
-    (property "Footprint" "" (id 2) (at 251.46 184.404 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 251.46 184.404 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 184.404 0)
@@ -7765,7 +7764,7 @@
     (uuid 0b87fef1-c8b2-4710-9574-5524d82fe245)
     (property "Reference" "RN2" (id 0) (at 187.839 217.17 0))
     (property "Value" "20K" (id 1) (at 187.839 219.4814 0))
-    (property "Footprint" "Componentes:Array0603" (id 2) (at 187.839 220.345 0)
+    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603" (id 2) (at 187.839 220.345 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 187.839 220.345 0)
@@ -7842,13 +7841,13 @@
     (property "Value" "USB3_A" (id 1) (at 393.7 95.8849 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "varis:USB-3.0-TH_C69073" (id 2) (at 378.46 91.44 0)
+    (property "Footprint" "footprints:USB-3.0-TH_C69073" (id 2) (at 378.46 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 378.46 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "old_FP" "Connector_USB:USB3_A_Molex_48393-001" (id 4) (at 382.27 93.98 0)
+    (property "old_FP" "" (id 4) (at 382.27 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7a221869-b909-4e8c-a8de-1a56b5071b60))
@@ -7938,7 +7937,7 @@
     (in_bom yes) (on_board yes)
     (uuid 214e3cb8-319d-4835-b5ba-372ad4fb3113)
     (property "Reference" "J3" (id 0) (at 200.66 64.3382 0))
-    (property "Value" "PMOD3" (id 1) (at 200.66 66.6496 0))
+    (property "Value" "PMOD4" (id 1) (at 200.66 66.6496 0))
     (property "Footprint" "footprints:PMOD_Female_Horizontal_2" (id 2) (at 199.39 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -7964,7 +7963,7 @@
     (uuid 22ef7ca9-8c9f-4920-b661-b81bb0bbee20)
     (property "Reference" "D5" (id 0) (at 247.396 174.244 0))
     (property "Value" "LED" (id 1) (at 251.206 174.244 0))
-    (property "Footprint" "" (id 2) (at 251.46 177.038 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 251.46 177.038 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 177.038 0)
@@ -7979,7 +7978,7 @@
     (uuid 23296ebb-694d-4659-8c27-83a176b90810)
     (property "Reference" "P1" (id 0) (at 245.364 224.4852 0))
     (property "Value" "MEM1055-00-280-01-B" (id 1) (at 245.364 226.7966 0))
-    (property "Footprint" "Componentes:GCT_MEM1055-00-280-01-B" (id 2) (at 245.364 251.587 0)
+    (property "Footprint" "Connector_Card:SD_TE_2041021" (id 2) (at 245.364 251.587 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "GCT" (id 3) (at 245.364 251.587 0)
@@ -8343,7 +8342,7 @@
     (property "Value" "Conn_01x06" (id 1) (at 270.764 77.724 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "gomaDOSzero:PCM5102" (id 2) (at 268.224 75.184 0)
+    (property "Footprint" "footprints:PCM5102" (id 2) (at 268.224 75.184 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 268.224 75.184 0)
@@ -8436,7 +8435,7 @@
     (property "Value" "DINC_MIN_TM_6_1" (id 1) (at 381 234.442 0)
       (effects (font (size 1.778 1.5113)) (justify right))
     )
-    (property "Footprint" "ps2:DINC_MIN_TM_6_1PRIMARY" (id 2) (at 374.65 233.172 0)
+    (property "Footprint" "footprints:DINC_MIN_TM_6_1PRIMARY" (id 2) (at 374.65 233.172 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 374.65 233.172 0)
@@ -8906,7 +8905,7 @@
     (uuid 827cfeed-10e1-49ff-9a37-c3aeec114ef2)
     (property "Reference" "RN3" (id 0) (at 187.706 200.152 0))
     (property "Value" "20K" (id 1) (at 187.706 202.4634 0))
-    (property "Footprint" "Componentes:Array0603" (id 2) (at 187.706 203.327 0)
+    (property "Footprint" "Resistor_SMD:R_Array_Concave_4x0603" (id 2) (at 187.706 203.327 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 187.706 203.327 0)
@@ -9282,7 +9281,7 @@
     (uuid a09733a9-f405-499d-8c26-78b234999d34)
     (property "Reference" "D7" (id 0) (at 247.396 189.23 0))
     (property "Value" "LED" (id 1) (at 251.46 189.23 0))
-    (property "Footprint" "" (id 2) (at 251.46 192.024 0)
+    (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 251.46 192.024 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 251.46 192.024 0)
@@ -9333,8 +9332,8 @@
   (symbol (lib_id "Connector_Generic:Conn_02x06_Top_Bottom") (at 256.794 33.02 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a3f53ab1-4eba-45f1-83ea-971ce25e0ad4)
-    (property "Reference" "J16" (id 0) (at 258.064 20.955 0))
-    (property "Value" "PMOD2" (id 1) (at 258.064 23.495 0))
+    (property "Reference" "J16" (id 0) (at 258.064 21.59 0))
+    (property "Value" "PMOD5" (id 1) (at 258.064 24.13 0))
     (property "Footprint" "footprints:PMOD_Female_Horizontal_2" (id 2) (at 256.794 33.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -9607,7 +9606,7 @@
     (property "Value" "Conn_01x04" (id 1) (at 96.774 153.9239 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "gomaDOSzero:I2C_DISPLAY_MULTI2" (id 2) (at 94.234 151.384 0)
+    (property "Footprint" "footprints:I2C_DISPLAY_MULTI2" (id 2) (at 94.234 151.384 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 94.234 151.384 0)
@@ -10554,13 +10553,13 @@
       (reference "D4") (unit 1) (value "BZT52C3V9") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/22ef7ca9-8c9f-4920-b661-b81bb0bbee20"
-      (reference "D5") (unit 1) (value "LED") (footprint "")
+      (reference "D5") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/01ee5666-fe7b-4368-a990-0645b8571000"
-      (reference "D6") (unit 1) (value "LED") (footprint "")
+      (reference "D6") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/a09733a9-f405-499d-8c26-78b234999d34"
-      (reference "D7") (unit 1) (value "LED") (footprint "")
+      (reference "D7") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/a69b7b01-ac9d-420b-b658-6c6a0976ffbd"
       (reference "H1") (unit 1) (value "MountingHole") (footprint "MountingHole:MountingHole_3.2mm_M3")
@@ -10581,7 +10580,7 @@
       (reference "J2") (unit 1) (value "Conn_02x40_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x40_P2.54mm_Horizontal")
     )
     (path "/214e3cb8-319d-4835-b5ba-372ad4fb3113"
-      (reference "J3") (unit 1) (value "PMOD3") (footprint "footprints:PMOD_Female_Horizontal_2")
+      (reference "J3") (unit 1) (value "PMOD4") (footprint "footprints:PMOD_Female_Horizontal_2")
     )
     (path "/e0abf8f3-23af-4028-aae2-bcb687774a16"
       (reference "J4") (unit 1) (value "Conn_02x20_Odd_Even") (footprint "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical")
@@ -10596,7 +10595,7 @@
       (reference "J7") (unit 1) (value "Conn_01x05") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x05_P2.54mm_Vertical")
     )
     (path "/c71fd0a8-53e1-417d-9543-665bdfd8272f"
-      (reference "J8") (unit 1) (value "Conn_01x04") (footprint "gomaDOSzero:I2C_DISPLAY_MULTI2")
+      (reference "J8") (unit 1) (value "Conn_01x04") (footprint "footprints:I2C_DISPLAY_MULTI2")
     )
     (path "/e383b838-ec38-43e6-ba3f-d4d24bed37e7"
       (reference "J9") (unit 1) (value "Conn_01x02") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical")
@@ -10617,22 +10616,22 @@
       (reference "J14") (unit 1) (value "DINC_MIN_TM_6_1") (footprint "footprints:DINC_MIN_TM_6_1PRIMARY")
     )
     (path "/4ac0b295-841a-4940-8973-8536013f104c"
-      (reference "J15") (unit 1) (value "Conn_01x06") (footprint "gomaDOSzero:PCM5102")
+      (reference "J15") (unit 1) (value "Conn_01x06") (footprint "footprints:PCM5102")
     )
     (path "/a3f53ab1-4eba-45f1-83ea-971ce25e0ad4"
-      (reference "J16") (unit 1) (value "PMOD2") (footprint "footprints:PMOD_Female_Horizontal_2")
+      (reference "J16") (unit 1) (value "PMOD5") (footprint "footprints:PMOD_Female_Horizontal_2")
     )
     (path "/c4420e99-4bbc-4042-9222-5779846eccc4"
       (reference "J17") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/5cee05e3-80b0-4c59-82b6-84b4d9eb09c1"
-      (reference "J18") (unit 1) (value "DINC_MIN_TM_6_1") (footprint "ps2:DINC_MIN_TM_6_1PRIMARY")
+      (reference "J18") (unit 1) (value "DINC_MIN_TM_6_1") (footprint "footprints:DINC_MIN_TM_6_1PRIMARY")
     )
     (path "/b4d677b3-303f-45f7-ae81-8eee1c071e02"
       (reference "J19") (unit 1) (value "Conn_02x06_Odd_Even") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x06_P2.54mm_Vertical")
     )
     (path "/1391764e-17ca-4a9e-a2dc-f725e9540aba"
-      (reference "J20") (unit 1) (value "USB3_A") (footprint "varis:USB-3.0-TH_C69073")
+      (reference "J20") (unit 1) (value "USB3_A") (footprint "footprints:USB-3.0-TH_C69073")
     )
     (path "/dd28f949-8cdb-433b-b7a3-c05902a67e58"
       (reference "J21") (unit 1) (value "DB9_Male_MountingHoles") (footprint "Connector_Dsub:DSUB-9_Male_Horizontal_P2.77x2.84mm_EdgePinOffset9.90mm_Housed_MountingHolesOffset11.32mm")
@@ -10665,7 +10664,7 @@
       (reference "JPS2") (unit 1) (value "SolderJumper_3_Open") (footprint "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm_NumberLabels")
     )
     (path "/23296ebb-694d-4659-8c27-83a176b90810"
-      (reference "P1") (unit 1) (value "MEM1055-00-280-01-B") (footprint "Componentes:GCT_MEM1055-00-280-01-B")
+      (reference "P1") (unit 1) (value "MEM1055-00-280-01-B") (footprint "Connector_Card:SD_TE_2041021")
     )
     (path "/2835995c-2375-46e5-9b30-f9aa5106ba72"
       (reference "R1") (unit 1) (value "510") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
@@ -10725,10 +10724,10 @@
       (reference "R22") (unit 1) (value "510") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/0b87fef1-c8b2-4710-9574-5524d82fe245"
-      (reference "RN2") (unit 1) (value "20K") (footprint "Componentes:Array0603")
+      (reference "RN2") (unit 1) (value "20K") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
     )
     (path "/827cfeed-10e1-49ff-9a37-c3aeec114ef2"
-      (reference "RN3") (unit 1) (value "20K") (footprint "Componentes:Array0603")
+      (reference "RN3") (unit 1) (value "20K") (footprint "Resistor_SMD:R_Array_Concave_4x0603")
     )
     (path "/7e8d0e61-a648-4421-a958-e042a87d1564"
       (reference "U1") (unit 1) (value "LM1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
